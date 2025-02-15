@@ -102,7 +102,6 @@ class bank_operations extends bank_new_account {
     print("YOUR ACCOUNT HAS BEEN SUCCESSFULLY CREATED");
     print("your name:$name\nyour age:$age and pin:$user_pin");
     print("YOUR BANK ACCOUNT NUMBER: $user_account_number");
-    bank_operations user = bank_operations();
     date_store data = date_store();
     data.new_user_account(
         name, age, user_account_number, user_pin, total_amount);
